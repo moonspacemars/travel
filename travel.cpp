@@ -564,7 +564,7 @@ int main(int argc, char *argv[]){
 //  read file
     string filePath;
     filePath.assign(argv[1]);
-    filePath=filePath+"./tp.data";
+    filePath=filePath+"/tp.data";
     ifstream inputFile(filePath);
     if (!inputFile)
         cout<<"Can not open file!"<<endl;
